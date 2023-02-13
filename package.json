@@ -1,0 +1,29 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phukon/fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phukon/fullstack/issues"
+  },
+  "homepage": "https://github.com/phukon/fullstack#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
